@@ -4,4 +4,4 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 
 const recipe = {eggs: 3}
 
-console.log(updateObjectWithKeyAndValue(recipe, chocolate, '1 cup'))
+console.log(updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup'))
