@@ -4,4 +4,6 @@ var meals = {
   dinner: "steak"
 }
 
+meals.snack = 'yogurt'
 
+console.log(meals)
