@@ -4,4 +4,4 @@ var meals = {
   dinner: "steak"
 }
 
-var meals = new Object({breakfast: 'oatmeal'});
+
