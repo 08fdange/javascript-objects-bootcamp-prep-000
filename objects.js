@@ -12,5 +12,5 @@ function updateObjectWithObject(targetObject, updatesObject) {
   return Object.assign({}, targetObject, updatesObject)
 }
 
-console.log(updateObjectWithObject(recipe, 'chocolate', '1 cup'))
+console.log(updateObjectWithObject(recipe, 'chocolate':'1 cup'))
 
