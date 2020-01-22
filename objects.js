@@ -1,1 +1,1 @@
-Object.assign({}, {foo: 'bar'})
+function updateObjectWithKeyAndValue()
