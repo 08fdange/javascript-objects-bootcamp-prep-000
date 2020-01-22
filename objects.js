@@ -1,12 +1,14 @@
-var meals = {
-  breakfast: "oatmeal",
-  lunch: "burrito",
-  dinner: "steak"
+destructivelyUpdateObjectWithKeyAndValue(obj, key, value); {
+  obj[key] = value;
+ 
+  return obj;
 }
-
-var cheatmeal = 'burger'
-meals.snack = 'yogurt'
-meals.breakfast = 'eggs and oatmeal'
-meals.dinner = cheatmeal
-
-console.log(meals)
+ 
+const recipe = { eggs: 3 };
+ 
+destructivelyUpdateObjectWithKeyAndValue(recipe, 'flour', '3 cups');
+// returns { eggs: 3, flour: '3 cups' }
+ 
+// but also:
+ 
+console.log(recipe) // { eggs: 3, flour: '3 cups' }
