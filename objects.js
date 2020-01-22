@@ -5,5 +5,6 @@ var meals = {
 }
 
 meals.snack = 'yogurt'
+meals.breakfast = 'eggs and oatmeal'
 
 console.log(meals)
