@@ -1,1 +1,2 @@
-var playlist = {[Thrice: 'Cold Cash And Cold Hearts']}
+var playlist = {Thrice: 'Cold Cash And Cold Hearts'}
+
